@@ -29,12 +29,12 @@ maiorEmenor(10, 200, 50);
 /* 2. Para doar sangue é necessário ter entre 18 e 67 anos. Faça um algoritimo que pergunte a 
 idade de uma pessoa e diga se ela pode doar sangue ou não. Use alguns dos operadores lógicos OU (||) e E (&&) */
 
-function podeVotar(idade) {
+function podeDoar(idade) {
   if (idade >= 18 && idade <= 67) {
-    return `Você pode votar!!!`;
+    return `Você pode doar sangue!!!`;
   }
 
-  return `Você ainda não pode votar!!!`;
+  return `Você ainda não pode doar sangue!!!`;
 }
 console.log(podeVotar(17));
 
