@@ -36,7 +36,6 @@ function podeDoar(idade) {
 
   return `Você ainda não pode doar sangue!!!`;
 }
-console.log(podeVotar(17));
 
 /* . Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo */
 function ehPositivoOuNegativo(valor) {
@@ -46,8 +45,6 @@ function ehPositivoOuNegativo(valor) {
 
   return `O Valor: ${valor} é negativo!!!`;
 }
-
-console.log(ehPositivoOuNegativo(-1545));
 
 /* 4. Faça um programa para a leitura de duas notas de um aluno.  
     A mensagem “Aprovado”, se a média alcançada for maior ou igual a 7;
@@ -63,5 +60,3 @@ function media(nota1, nota2) {
     return `Aprovado`;
   }
 }
-
-console.log(media(1, 9));
